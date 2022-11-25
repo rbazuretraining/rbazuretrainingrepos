@@ -1,0 +1,11 @@
+{
+	"name": "rb_src_excel",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://rbstrdev.dfs.core.windows.net/"
+		}
+	}
+}

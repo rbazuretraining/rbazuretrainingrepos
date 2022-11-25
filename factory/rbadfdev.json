@@ -1,0 +1,9 @@
+{
+	"name": "rbadfdev",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e0e29544-39cb-493a-95b0-a5d757997297",
+		"tenantId": "93f33571-550f-43cf-b09f-cd331338d086"
+	}
+}

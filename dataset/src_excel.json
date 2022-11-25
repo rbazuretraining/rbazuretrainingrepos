@@ -1,0 +1,24 @@
+{
+	"name": "src_excel",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "rb_src_excel",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Test",
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "SAG Extracts-Schedules.xlsx",
+				"folderPath": "Partition=testPartitionName",
+				"fileSystem": "sourcerds"
+			},
+			"range": "A1:B16",
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
