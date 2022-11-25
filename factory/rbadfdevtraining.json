@@ -1,0 +1,25 @@
+{
+	"name": "rbadfdevtraining",
+	"properties": {
+		"encryption": {
+			"identity": {
+				"userAssignedIdentity": "/subscriptions/27ccea32-4af8-43f3-910b-45a25b08f1e4/resourcegroups/RBAzureTrainingRG/providers/Microsoft.ManagedIdentity/userAssignedIdentities/RBAzureTraining-User-managed-identity"
+			},
+			"VaultBaseUrl": "https://rbazuretrainingkv.vault.azure.net",
+			"KeyName": "RBAzureTrainingTDEKey",
+			"KeyVersion": "6f391e548c4840ae87ea476674859177"
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "faefd857-58ef-4588-8a3f-88d2b4b08b62",
+		"tenantId": "c5e78b92-b5bb-402f-bcd0-73c31c25d7f6",
+		"userAssignedIdentities": {
+			"/subscriptions/27ccea32-4af8-43f3-910b-45a25b08f1e4/resourcegroups/RBAzureTrainingRG/providers/Microsoft.ManagedIdentity/userAssignedIdentities/RBAzureTraining-User-managed-identity": {
+				"clientId": "89e03129-1e7c-4b4b-aef7-e716cfe4b9b3",
+				"principalId": "43eccb63-849d-4651-8faf-73fb3049b4d8"
+			}
+		}
+	}
+}
